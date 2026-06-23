@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+:root{
+	background-color:rgb(135,206,235);
+	
+}
+body{
+	width:100vw;
+	height:100vh;
+}
+p:first-child{
+	width:100vw;
+	color:white;
+	background-color:black;
+	height:20px;
+}
+p:nth-child(2){
+color:black;
+	
+}
+p:last-child{
+	color:red;
+}
+ul{
+	width:100vw;
+	height:30vh;
+
+}
+li{
+	height:6vh;
+	width:50%;
+	background-color:grey;
+	padding:10px;
+	
+}
+li:first-child{
+	font-size:22px
+}
+li:last-child{
+	font-size:22px;
+}
+li:nth-child(odd){
+	background-color:white;
+}
+li:nth-child(n+3){
+	background-color:pink;
+}
